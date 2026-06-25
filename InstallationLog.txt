@@ -1,0 +1,7 @@
+************************************* Invoked: Thu Jun 25 15:06:24 2026
+[0] Arguments: C:\Users\THANAP~1\AppData\Local\Temp\WinGet\MSYS2.MSYS2.20260611\msys2-x86_64-20260611.exe, install, --confirm-command, --root, C:\msys64
+[36] Operations sanity check succeeded.
+[41] Using metadata cache from "C:/Users/thanapooml/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[41] Found 0 cached items.
+[44] Loaded control script ":/metadata/installer-config/control_js"
+[44] TargetDirectoryInUse : Error : The directory you selected already exists and contains an installation. Choose a different target for installation.
