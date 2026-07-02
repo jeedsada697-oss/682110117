@@ -17,3 +17,17 @@ level/]
 
 
 ```
+
+**C:Simple AI Patrol**
+
+```mermaid
+flowchart TD
+	Start([start]) --> Input[pos = A, dir = forward]
+	Input --> DIR{ระยะถึง player < 100?}
+	DIR --> |yes| I[/chase player/]-->E([End])
+	DIR -->|No| Eny[เลื่อน enemy ตาม DIR]-->Loc{ถึงจุด B?}
+	Loc -->|Yes| DIR1[dir = กบับไปA] -->DIR
+	Loc -->|No|Loc1{ถึงA?}
+	Loc1 -->|Yes| Dir2[dir = ไปหน้า B] -->DIR
+	Loc1 -->|No| DIR
+```
