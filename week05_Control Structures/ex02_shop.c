@@ -76,6 +76,8 @@ int main(){
         default:
             printf("Invalid choice! Please select a valid option.\n");
 
-    }
+      
 
+    }
+        return 0;
 }
